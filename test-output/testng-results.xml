@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-14T13:27:25Z" name="TutorialsNinja testcases" finished-at="2023-09-14T13:28:01Z" duration-ms="35376">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T13:27:25Z" name="Test" finished-at="2023-09-14T13:28:01Z" duration-ms="35376">
+      <class name="com.tutorialsninja.qa.testcases.Search">
+        <test-method is-config="true" signature="BeforeSearch()[pri:0, instance:com.tutorialsninja.qa.testcases.Search@32c4e8b2]" started-at="2023-09-14T13:27:44Z" name="BeforeSearch" finished-at="2023-09-14T13:27:49Z" duration-ms="4387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSearch -->
+        <test-method signature="verifyTheSearchForValidProduct()[pri:1, instance:com.tutorialsninja.qa.testcases.Search@32c4e8b2]" started-at="2023-09-14T13:27:49Z" name="verifyTheSearchForValidProduct" finished-at="2023-09-14T13:27:49Z" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheSearchForValidProduct -->
+        <test-method is-config="true" signature="afterSearch()[pri:0, instance:com.tutorialsninja.qa.testcases.Search@32c4e8b2]" started-at="2023-09-14T13:27:49Z" name="afterSearch" finished-at="2023-09-14T13:27:50Z" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSearch -->
+        <test-method is-config="true" signature="BeforeSearch()[pri:0, instance:com.tutorialsninja.qa.testcases.Search@32c4e8b2]" started-at="2023-09-14T13:27:56Z" name="BeforeSearch" finished-at="2023-09-14T13:28:00Z" duration-ms="4060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSearch -->
+        <test-method signature="verifyTheSearchWithInvalidProduct()[pri:2, instance:com.tutorialsninja.qa.testcases.Search@32c4e8b2]" started-at="2023-09-14T13:28:00Z" name="verifyTheSearchWithInvalidProduct" finished-at="2023-09-14T13:28:00Z" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheSearchWithInvalidProduct -->
+        <test-method is-config="true" signature="afterSearch()[pri:0, instance:com.tutorialsninja.qa.testcases.Search@32c4e8b2]" started-at="2023-09-14T13:28:00Z" name="afterSearch" finished-at="2023-09-14T13:28:01Z" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSearch -->
+      </class> <!-- com.tutorialsninja.qa.testcases.Search -->
+      <class name="com.tutorialsninja.qa.testcases.Registration">
+        <test-method is-config="true" signature="beforeRegistration()[pri:0, instance:com.tutorialsninja.qa.testcases.Registration@77128536]" started-at="2023-09-14T13:27:37Z" name="beforeRegistration" finished-at="2023-09-14T13:27:41Z" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRegistration -->
+        <test-method signature="Register()[pri:1, instance:com.tutorialsninja.qa.testcases.Registration@77128536]" started-at="2023-09-14T13:27:41Z" name="Register" finished-at="2023-09-14T13:27:43Z" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method is-config="true" signature="ClosingRegistration()[pri:0, instance:com.tutorialsninja.qa.testcases.Registration@77128536]" started-at="2023-09-14T13:27:43Z" name="ClosingRegistration" finished-at="2023-09-14T13:27:43Z" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingRegistration -->
+        <test-method is-config="true" signature="beforeRegistration()[pri:0, instance:com.tutorialsninja.qa.testcases.Registration@77128536]" started-at="2023-09-14T13:27:50Z" name="beforeRegistration" finished-at="2023-09-14T13:27:54Z" duration-ms="4333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRegistration -->
+        <test-method signature="verifyRegistrationByProvidingAllTheFileds()[pri:2, instance:com.tutorialsninja.qa.testcases.Registration@77128536]" started-at="2023-09-14T13:27:54Z" name="verifyRegistrationByProvidingAllTheFileds" finished-at="2023-09-14T13:27:55Z" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationByProvidingAllTheFileds -->
+        <test-method is-config="true" signature="ClosingRegistration()[pri:0, instance:com.tutorialsninja.qa.testcases.Registration@77128536]" started-at="2023-09-14T13:27:55Z" name="ClosingRegistration" finished-at="2023-09-14T13:27:56Z" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingRegistration -->
+      </class> <!-- com.tutorialsninja.qa.testcases.Registration -->
+      <class name="com.tutorialsninja.qa.testcases.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@58326051]" started-at="2023-09-14T13:27:26Z" name="setUp" finished-at="2023-09-14T13:27:36Z" duration-ms="9855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@58326051]" started-at="2023-09-14T13:27:36Z" name="verifyLoginWithInvalidCredentials" finished-at="2023-09-14T13:27:36Z" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.Login@58326051]" started-at="2023-09-14T13:27:36Z" name="tearDown" finished-at="2023-09-14T13:27:37Z" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.Login@58326051]" started-at="2023-09-14T13:27:44Z" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplyer" finished-at="2023-09-14T13:27:44Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()" because "sheet" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()" because "sheet" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()" because "sheet" is null
+at com.tutorialsninja.qa.utils.Utilities.getTestDataFromExcel(Utilities.java:37)
+at com.tutorialsninja.qa.testcases.Login.supplyTestData(Login.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+      </class> <!-- com.tutorialsninja.qa.testcases.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- TutorialsNinja testcases -->
+</testng-results>
